@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicholas Guimarais - Full Stack Engineer</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        .sidebar {
+            width: 30%;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 20px;
+        }
+        .main-content {
+            width: 70%;
+            padding: 40px;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+            margin-top: 0;
+        }
+        h1 {
+            font-size: 2.2em;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.5em;
+            border-bottom: 1px solid #bdc3c7;
+            padding-bottom: 5px;
+            margin-top: 25px;
+        }
+        .sidebar h2 {
+            color: #ecf0f1;
+            border-bottom: 1px solid #34495e;
+            font-size: 1.3em;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+            font-size: 0.9em;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .contact-info p {
+            margin: 5px 0;
+            flex-basis: 33.33%;
+        }
+        .contact-info .social-links {
+            flex-basis: 100%;
+            margin-top: 5px;
+        }
+        .contact-info label {
+            font-weight: bold;
+            margin-right: 5px;
+        }
+        .skills-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills-list li {
+            background-color: #34495e;
+            color: #ecf0f1;
+            padding: 5px 10px;
+            margin-bottom: 5px;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .job {
+            margin-bottom: 25px;
+        }
+        .job-title {
+            font-weight: bold;
+            color: #2980b9;
+        }
+        .job-details {
+            display: flex;
+            justify-content: space-between;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Technical Skills</h2>
+            <ul class="skills-list">
+                <li>JavaScript / TypeScript</li>
+                <li>React.js / Next.js</li>
+                <li>Node.js / Express.js</li>
+                <li>HTML5 / CSS3</li>
+                <li>GraphQL / REST APIs</li>
+                <li>MySQL / MongoDB</li>
+                <li>AWS / Docker</li>
+                <li>CI/CD (Jenkins)</li>
+                <li>Testing (Jest, Cypress)</li>
+            </ul>
+
+            <h2>Tools</h2>
+            <ul class="skills-list">
+                <li>Visual Studio Code</li>
+                <li>Postman</li>
+                <li>Figma / Sketch / Adobe XD</li>
+                <li>Git / GitHub</li>
+            </ul>
+
+            <h2>Education</h2>
+            <p><strong>University of California, Los Angeles</strong><br>
+            Full Stack Web Development<br>
+            Certificate of Completion, 2020</p>
+            <p><strong>University of San Diego</strong><br>
+            B.S. Accountancy & Finance<br>
+            Minor in Real Estate, 2016</p>
+        </aside>
+
+        <main class="main-content">
+            <header>
+                <h1>NICHOLAS GUIMARAIS</h1>
+                <h2>Full Stack Engineer</h2>
+                <div class="contact-info">
+                    <p><label>Location:</label> San Diego, CA 92101</p>
+                    <p><label>Phone:</label> 818-235-8076</p>
+                    <p><label>Email:</label> nick.guimarais@gmail.com</p>
+                    <div class="social-links">
+                        <p><a href="https://www.linkedin.com/in/nick-guimarais-5b1b6249" target="_blank">LinkedIn</a></p>
+                        <p>GitHub: <a href="https://github.com/NickGDemyst" target="_blank">NickGDemyst</a>, 
+                        <a href="https://github.com/nickgusd" target="_blank">nickgusd</a></p>
+                        <p><a href="https://nickguimarais.com" target="_blank">Portfolio</a></p>
+                    </div>
+                </div>
+            </header>
+
+            <section>
+                <h2>Professional Summary</h2>
+                <p>Versatile Full Stack Engineer with a unique blend of technical expertise and business acumen, derived from a multifaceted background in Accounting, Consulting, Finance, and Real Estate. Specializes in developing scalable, user-centric web applications that drive product success and enhance user experiences. Adept at bridging the gap between technical implementation and business objectives, delivering innovative solutions that meet both user needs and organizational goals.</p>
+            </section>
+
+            <section>
+                <h2>Professional Experience</h2>
+                
+                <div class="job">
+                    <div class="job-details">
+                        <span class="job-title">Accounting Manager</span>
+                        <span>June 2023 - Present</span>
+                    </div>
+                    <p><em>Adept Urban - Remote</em></p>
+                    <p>Manage financial operations for a real estate development company specializing in apartment units, condos, and event centers.</p>
+                </div>
+
+                <div class="job">
+                    <div class="job-details">
+                        <span class="job-title">Full Stack Software Developer (Part-time)</span>
+                        <span>June 2023 - Present</span>
+                    </div>
+                    <p><em>Lifeshack.com - Remote</em></p>
+                    <ul>
+                        <li>Engineered robust job scrapers to aggregate listings from multiple job boards, enhancing the platform's job database.</li>
+                        <li>Revamped the user onboarding process, implementing UI changes that improved user experience and increased conversion rates.</li>
+                        <li>Developed responsive pages and optimized the landing page, resulting in improved user engagement metrics.</li>
+                        <li>Implemented sophisticated job filters for both mobile and desktop interfaces, allowing users to efficiently find remote and hybrid positions.</li>
+                        <li>Enhanced the GraphQL schema and integrated GraphQL endpoints on the front-end using Apollo Client, improving data management and query efficiency.</li>
+                        <li>Utilized TypeScript, Next.js, React.js, HTML, CSS, GraphQL, and useContext to build a robust and scalable user interface.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-details">
+                        <span class="job-title">Frontend Developer (Freelance)</span>
+                        <span>April 2023 - June 2023</span>
+                    </div>
+                    <p><em>Blossm Inc</em></p>
+                    <ul>
+                        <li>Designed and implemented high-converting landing pages for Google Ads campaigns, significantly boosting user engagement and conversion rates.</li>
+                        <li>Spearheaded SEO optimization efforts, substantially improving the website's search engine visibility and organic traffic.</li>
+                        <li>Developed a dedicated showcase page for Blossm plant sellers, featuring dynamic seller profiles and inventory displays, enhancing the platform's community aspect.</li>
+                        <li>Implemented comprehensive Google Analytics click conversion tracking across the website, providing valuable insights into user behavior and campaign effectiveness.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-details">
+                        <span class="job-title">Frontend Developer</span>
+                        <span>June 2021 - January 2023</span>
+                    </div>
+                    <p><em>Demyst - Remote</em></p>
+                    <ul>
+                        <li>Developed intuitive user interfaces for a banking client's Customer and Banker's Portals, streamlining the lending automation process.</li>
+                        <li>Contributed to the maintenance and expansion of the Demyst Design System, creating reusable UI components in Storybook to ensure consistency across the platform.</li>
+                        <li>Implemented new features for the core Demyst.com platform, enhancing functionality and user experience.</li>
+                        <li>Utilized Jenkins CI/CD for efficient deployment across various environments, ensuring smooth and consistent releases.</li>
+                        <li>Implemented comprehensive testing strategies, including end-to-end testing with Cypress and unit testing with Jest, to maintain high code quality and reliability.</li>
+                        <li>Leveraged a modern tech stack including JavaScript, React.js, HTML, CSS, Styled Components, Less, Redux, and Recoil to build robust and performant user interfaces.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-details">
+                        <span class="job-title">Senior Associate</span>
+                        <span>December 2018 - May 2020</span>
+                    </div>
+                    <p><em>Macias Gini & O'Connell LLP - San Diego, CA</em></p>
+                    <p>Provided high-level accounting and consulting services for a national middle-market firm, leveraging financial expertise to support client success.</p>
+                </div>
+
+                <div class="job">
+                    <div class="job-details">
+                        <span class="job-title">Consultant</span>
+                        <span>June 2016 - November 2018</span>
+                    </div>
+                    <p><em>RSM US LLP - San Diego, CA</em></p>
+                    <p>Delivered strategic consulting services at one of the top 5 accounting/consulting firms in the United States, honing problem-solving and client communication skills.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
